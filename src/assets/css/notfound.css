@@ -1,0 +1,36 @@
+.not-found-fullscreen{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+  background-color: white;
+}
+
+.container-component{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  min-height: 100vh;
+}
+.not-found-content{
+	width: 500px;
+	overflow: hidden;
+}
+.not-found-content p{
+	margin-bottom: 35px;
+	margin-left: -10px;
+}
+.not-found-content p a img{
+	height: 50px;
+}
+
+.not-found-content h2{
+	font-weight: 300;
+	margin-bottom: 25px;
+}

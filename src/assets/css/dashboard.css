@@ -1,0 +1,50 @@
+/**Header Div Styles**/
+.header{
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,0.08);
+    background-color: white !important;
+    border-bottom: 1px solid #e1e1e1;
+}
+.main-dashboard-section,
+.list-component-section{
+    padding: 2.5rem 0;
+}
+.title-dashboard-card{
+    margin-bottom: 25px;
+}
+.card-dashboard{
+    margin-bottom: 20px;
+}
+
+.table-container{
+    max-height: 500px; 
+    overflow: hidden auto;
+}
+.card-header-section{
+	background-color:  #03a9f4;
+	color: white;
+}
+
+.show-todo{
+	padding: 3rem 0;
+}
+.show-dashboard-button-list{
+	margin-top: 25px;
+}
+.card{
+	margin-bottom: 25px;
+}
+
+.card-not-ondate-todo{
+	background-color: #dc3545!important;
+	color: white;
+}
+.card-ondate-todo{
+	background-color: #343a40!important;
+	color: white;
+}
+.form-section{
+	padding: 5rem 0;
+}
+.form-textarea{
+	height: 10rem !important;
+}

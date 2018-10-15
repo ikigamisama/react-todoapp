@@ -1,0 +1,90 @@
+/**Header Div Styles**/
+.header{
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,0.08);
+    background-color: white !important;
+    border-bottom: 1px solid #e1e1e1;
+}
+.header-main-logo{
+    width: 175px;
+    height: 3.25rem;
+}
+.header-links{
+    margin: 15px 10px;
+}
+
+/**Section Div Styles**/
+.main-section,
+.sub-main-section,
+.last-main-section{
+    padding: 5.5rem 0;
+}
+.left-main-section-component,
+.right-main-section-component,
+.left-sub-main-section-component,
+.right-sub-main-section-component{
+    margin-bottom: 2rem;
+}
+.left-main-section-component .title{
+    font-weight: 500;
+    font-size: 3.5rem;
+}
+.left-main-section-component .title span{
+    display: block;
+    color: #03a9f4;
+}
+.left-main-section-component p{
+    margin-top: 2rem !important;
+    color: #6f6f6f;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.75;
+}
+.left-main-section-component .button,
+.last-main-component .button{
+    background-color:  #03a9f4;
+    border: 1px solid #03a9f4;
+    padding: 15px 35px;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    transition: 0.25s all;
+}
+.left-main-section-component .button:hover,
+.last-main-component .button:hover{
+    background-color: transparent;
+    color: #03a9f4;
+}
+.right-main-section-component img{
+    max-width: 100%;
+    height: auto;
+}
+
+/**Sub Main Section **/
+
+.left-sub-main-section-component img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.right-sub-main-section-component p{
+    margin-top: 2rem !important;
+    color: #6f6f6f;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.75;
+}
+
+/**Footer Section Design **/
+
+.footer{
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,0.08);
+    background-color: #03a9f4 !important;
+    border-top: 1px solid #e1e1e1;
+}
+.footer-links{
+    margin: 0 10px;
+}
+.footer-links i {
+    font-size: 1.5rem;
+    color: white;
+}
